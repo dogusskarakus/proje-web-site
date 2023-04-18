@@ -1,12 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
 .nav-bg{
     background-color :rgba(69,130,255,0.8) !important;
 }
 
-.üst-nav-bg{
+.top-nav-bg{
     background-color: #d887d0 ;
-
 }
-
+.top-nav{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+@media only screen and (max-width:480px){
+    .top-nav{
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+.top-nav i::before{
+    font-size: 1.125rem;
+    color: #fff;
+}
+.top-nav-left, .top-nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media only screen and (max-width:480px){
+    .top-nav-left, .top-nav-right{
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+}
+.top-nav-text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.top-nav-text a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-links{
+    line-height: 1;
+}
+.social-links i::before{
+    font-size: 1.125rem;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 1rem !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border: none;
+    border-radius: 0;
+    padding:.75rem 1rem !important;
+}
+.dropdown-item{
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+.dropdown-item:hover{
+    background-color: #fff;
+    color: #d887d0;
+    font-weight: 600;
+}
+@keyframes fadeInUp{
+    0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 10%, 0);
+            transform: translate3d(0, 10%, 0);
+        }
+    
+        100% {
+            opacity: 1;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+}
 .carousel-item {
 
     padding: relative;
@@ -16,5 +113,59 @@
     margin-top: 50px
     
   }
+
+
+/* sizden gelenler */
+
+.sizdengelen{
+
+    position: relative;
+    top: 150px;
+    font-size: 36px;
+    color: 42495b;
+    
+}
+
+  .bg-pink{
+    background-color: #d887d0;
+    width: auto;
+    height: 1500px;
+
+  }
+
+  .etkinlik{
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 350px;
+    font-size: 15px;
+    
+    
+  }
+
+  .detaylıbilgi{
+    border-radius: 5px;
+    text-shadow: 42495b;
+    position: relative;
+    top: 600px;
+    text-align: center;
+   
+    
+  }
+
+  .custom-button {
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    top: 510px;
+  }
   
   
+
+  
+
