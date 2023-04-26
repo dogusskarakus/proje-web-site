@@ -114,14 +114,25 @@
     
   }
 
+  .saricizgi{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .onyazi{
+    border-radius: 4px;
+  }
+
 
 /* sizden gelenler */
+
+.neler-
 
 .sizdengelen{
 
     position: relative;
-    top: 150px;
-    font-size: 36px;
+    top: 450px;
+    font-size: 50px;
     color: 42495b;
     
 }
@@ -165,7 +176,92 @@
     top: 510px;
   }
   
-  
+  .TANITIM{
+    color: #fff;
+  }
 
-  
+  .bilgi-bankası{
+    font-size: 36px;
+    letter-spacing: -1.5px ;
+    color: #42495b;
+    font-weight: 700;
+    line-height: 1.25;
+  }
 
+  .alt-resim{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+  
+  }
+
+
+.bilgi-bankası-button{
+
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+
+}
+
+
+footer {
+    background-color: #151948;
+    color: #fff;
+    font-size: 16px;
+    padding: 90px 70px;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+  
+  .contact-info,
+  .help-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li,
+  .help-links li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .contact-info li i,
+  .help-links li a {
+    color: #fff;
+    font-size: 15px;
+   
+  }
+  
+  .contact-info li:last-child,
+  .help-links li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .help-links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+  
