@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+.top-nav-bg{
+    background-color: #ffb34f;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+@media only screen and (max-width:480px){
+    .top-nav{
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+
+.top-nav i::before{
+    font-size: 1.125rem;
+    color: #fff;
+}
+
+.top-nav-left, .top-nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media only screen and (max-width:480px){
+    .top-nav-left, .top-nav-right{
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+}
+.top-nav-text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.top-nav-text a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-links{
+    line-height: 1;
+}
+.social-links i::before{
+    font-size: 1.125rem;
+}
+
+
+.nav-link{
+    color: #42495b;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 1rem !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border: none;
+    border-radius: 0;
+    padding:.75rem 1rem !important;
+}
+.dropdown-item{
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+.dropdown-item:hover{
+    background-color: #fff;
+    color: #d887d0;
+    font-weight: 600;
+}
+@keyframes fadeInUp{
+    0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 10%, 0);
+            transform: translate3d(0, 10%, 0);
+        }
+    
+        100% {
+            opacity: 1;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+}
+
+
+.slider {
+    background-color: #f8f8f8;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-text {
+    text-align: center;
+    color: #42495b;
+
+  }
+  
+  .slider-text h2 {
+    font-size: 42px;
+    letter-spacing: -1.5px;
+    font-weight: 700;
+    color: #42495b;
+    font-family: "Montserrat";
+
+  }
+  .breadcrumb{
+    display:inline-flex;
+    padding: 10px;
+   
+}
+a{
+text-decoration: none;
+color: #42495b;
+font-size: 14px; 
+font-family: "Open Sans";
+font-weight: 600;
+}
+.breadcrumb a:hover {
+  color:#ffb34f;
+  transition: 0.2s;
+}
+
+
+
+ .aileegitimi-img img{
+    height: auto;
+    max-width: 100%;
+    margin-top: 100px;
+ }
+
+ .aileegitimi-nedir{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #42495b;
+    font-size: 37.966px;
+    font-family: 'montserrat', sans-serif;
+
+ }
+
+ .aileegitimi-paragraf{
+    margin: 0 0 25px;
+    font-size: 14px;
+    font-family: "Open Sans"; 
+    color: grey;
+    line-height: 2;
+
+ }
+ #sidebar {
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+#sidebar .widget.widget_search {
+  border-radius: 5px;
+  background-color: #4582ff;
+  overflow: hidden;
+}
+.arama-yap{
+  
+    font-size: 24px;
+    color: white;
+    background-color: #4582ff;
+    padding: 19px 32px;
+    margin: 0;
+    border: 0;
+}
+.anahtar-kelime{
+
+  padding: 19px 0px 19px 28px;
+  height: 18px;
+  width: 100%;
+  border: none;
+
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 0;
+  outline: none;
+}
+
+
+.anahtar-kelime::placeholder{
+  color: white;
+  font-size: 15px;
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+ /* Footer */
+
+ footer {
+    background-color: #151948;
+    color: #fff;
+    font-size: 16px;
+    padding: 90px 70px;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+  
+  .contact-info,
+  .help-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li,
+  .help-links li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .contact-info li i,
+  .help-links li a {
+    color: #fff;
+    font-size: 15px;
+   
+  }
+  
+  .contact-info li:last-child,
+  .help-links li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .help-links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
