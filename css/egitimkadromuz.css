@@ -133,7 +133,6 @@
   .breadcrumb{
     display:inline-flex;
     padding: 10px;
-   
 }
 .breadcrumb-item a{
 text-decoration: none;
@@ -142,29 +141,36 @@ font-size: 14px;
 font-family: "Open Sans";
 font-weight: 600;
 }
+
 .breadcrumb a:hover {
   color:#ffb34f;
-  transition: 0.2s;
 }
 
 
 
- .aileegitimi-img img{
-    height: auto;
+ .egitim-img img{
+    width: 100%;
+    padding-left: 0;
+    max-height: 600px;
+    height: 100%;
     max-width: 100%;
-    margin-top: 100px;
+    border: 13px solid;
+    border-image: linear-gradient(transparent 0%, #d887d0 0% 90%, #d887d0 24% 70%) 0 1 1 0 / 55px;
+
  }
 
- .aileegitimi-nedir{
+ 
+ .ailedanısmanlıgı-nedir{
     margin-top: 50px;
     margin-bottom: 20px;
     color: #42495b;
     font-size: 37.966px;
     font-family: 'montserrat', sans-serif;
+    
 
  }
 
- .aileegitimi-paragraf{
+ .ailedanismanligi-paragraf{
     margin: 0 0 25px;
     font-size: 14px;
     font-family: "Open Sans"; 
@@ -172,172 +178,97 @@ font-weight: 600;
     line-height: 2;
 
  }
-
-
- /* Sidebar */
-
- #sidebar {
-    width: 100%;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: 100px;
-    margin: 0px;
+.sari-cizgi{
+    padding-left: 25px;
 }
 
-#sidebar .widget.widget_search {
-  border-radius: 5px;
-  background-color: #4582ff;
-  overflow: hidden;
+.egitim-ogretim h2{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #42495b;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 20px;
 }
-.arama-yap{
-  
-    font-size: 24px;
+
+.egitim-ogretim-paragraf{
+    font-size: normal;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: gray;
+    margin: 0 0 25px;
+    line-height: 2;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.vizyon-paragraf{
     color: white;
-    background-color: #4582ff;
-    padding: 19px 32px;
-    margin: 0;
-    border: 0;
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-align: justify;
 }
-.anahtar-kelime{
-
-  padding: 19px 0px 19px 28px;
-  height: 18px;
-  width: 100%;
-  border: none;
-
-  color: white;
-  font-weight: 500;
-  background-color: transparent;
-  border-radius: 0;
-  outline: none;
-}
-
-
-.anahtar-kelime::placeholder{
-  color: white;
-  font-size: 15px;
-  border: 0;
-}
-
-
-.hizmetlerimiz{
-  background-color: #4582ff;
-  font-size: 25px;
-  color: white;
-  padding: 19px 32px;
-  margin-left: 21px;
-  font-weight: 700;
-  line-height: 1.25;
-  height: 70px;
-  padding-left: 30px;
+.vizyon-img{
+  border: 13px solid;
+  border-image: linear-gradient(transparent 0%, #d887d0 0% 90%, #d887d0 24% 70%) 0 1 1 0 / 55px;
+  height: auto;
+  max-width: 90%;
+  vertical-align: middle;
 
 }
-
-.menu-hizmetlerimiz{
-  padding: 8px 12px;
-  list-style: none;
-  margin: 0 0 20px 20px;
-  padding-left: 0 ;
-  padding-right: 0;
-  padding-top: 0 !important;  
+.deger{
+    padding-top: 10px;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #42495b;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 20px;
 }
-.hizmetlerimiz-liste{
-  color: gray;
-  background-color: #f8f8f8;
+.degerlerimiz-paragraf{
+  font-style: normal;
   font-size: 14px;
+  line-height: 30px;
+  max-width: 530px;
   font-family: "Open Sans";
-  padding: 13px 20px;
-  line-height: 4;
+  color: #808080;
 }
-.liste {
-  border-bottom: 1px solid #e6e6e6;
+.bg-blue{
+    background-color: #151948;
+    width: auto;
+    text-align: center;
 }
-
-.bilgi-bankası{
-  
-  font-size: 25px;
-  color: white;
-  background-color: #4582ff;
-  padding: 19px 32px;
-  margin: 0;
-  border: 0;
-  margin-left: 20px;
-  font-weight: 700;
-
-}
-.menu-bilgibankası{
-  padding: 8px 12px;
-  list-style: none;
-  margin: 0 0 20px 20px;
-  padding-left: 0 ;
-  padding-right: 0;
-  padding-top: 0 !important;  
-
-}
-.bilgibankası-liste{
-  color: gray;
-  background-color: #f8f8f8;
-  font-size: 14px;
-  font-family: "Open Sans";
-  padding: 13px 20px;
-  line-height: 4;
-
-}
-
-.text a{
-  color:#42495b; 
-  font-size: 16px; 
-  line-height: 24px; 
-  margin: 0 0 3px; 
-  letter-spacing: -1px; 
-  font-family: "Montserrat"; 
-  font-weight: 700;
-  padding-left: 15px;
-  line-height: 1.5;
-  display: flex;
-  text-decoration: none;
+.egitim-kadro-img{
   
 }
-
-.menu-bilgibankası li{
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
-}
-.text{
-  margin: auto 0;
-}
-.post-date{
-  padding-left: 15px;
-  line-height: 2;
-
-}
-
-
-.liste a:hover {
-  color:#ffb34f;
-  transition: 0.2s;
-  
-}
-.liste a{
-text-decoration: none;
-color: gray;
-font-size: 14px; 
-font-family: "Open Sans";
-}
-
-.text a:hover {
-  color:#ffb34f;
-  transition: 0.2s;
+.egitim-kadromuz{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #151948;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+    letter-spacing: -.5px;
+    
 }
 
 
-/* ENDSidebar */
 
 
 
 
 
 
+
+
+
+
+
+ 
 
  /* Footer */
 
