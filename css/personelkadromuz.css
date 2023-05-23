@@ -148,13 +148,12 @@ font-weight: 600;
 
 
 
- .hakkimizda-img img{
+ .egitim-img img{
     width: 100%;
     padding-left: 0;
     max-height: 600px;
     height: 100%;
     max-width: 100%;
-    margin-top: 95px;
     border: 13px solid;
     border-image: linear-gradient(transparent 0%, #d887d0 0% 90%, #d887d0 24% 70%) 0 1 1 0 / 55px;
 
@@ -183,10 +182,10 @@ font-weight: 600;
     padding-left: 25px;
 }
 
-.bizi-taniyin h2{
-    padding-left: 20px;
+.egitim-ogretim h2{
+    padding-left: 25px;
     padding-top: 15px;
-    font-size: 55px;
+    font-size: 28px;
     margin-bottom: 25px;
     color: #42495b;
     font-weight: 700;
@@ -194,7 +193,7 @@ font-weight: 600;
     margin: 0 0 20px;
 }
 
-.bizi-taniyin-paragraf{
+.egitim-ogretim-paragraf{
     font-size: normal;
     font-family: "Open Sans";
     font-size: 14px;
@@ -202,26 +201,9 @@ font-weight: 600;
     margin: 0 0 25px;
     line-height: 2;
     font-weight: 400;
-    padding-left: 20px;
+    margin-left: 25px;
 }
 
-.bg-orange{
-    background-color: orange;
-    width: auto;
-    text-align: center;
-}
-.vizyon{
-  
-    color: rgb(255, 255, 255);
-    font-size: 55px;
-    letter-spacing: -1.5px;
-    font-weight: 700;
-    line-height: 1.25; 
-    margin: 0;
-    margin-bottom: 25px;
-    max-width: 450px;   
-    text-align:justify ;   
-}
 .vizyon-paragraf{
     color: white;
     font-size: 14px;
@@ -236,27 +218,35 @@ font-weight: 600;
   vertical-align: middle;
 
 }
-.deger{
-  color: #6a9bff;
-  max-width: 450px;
-  font-size: 55px;
-  margin-bottom: 0;
-  letter-spacing: -1.5px;
-  font-weight: 700;
-  line-height: 1.25;
-}
-.degerlerimiz-paragraf{
-  font-style: normal;
-  font-size: 14px;
-  line-height: 30px;
-  max-width: 530px;
-  font-family: "Open Sans";
-  color: #808080;
+
+
+.bg-blue{
+    background-color: #151948;
+    width: auto;
+    text-align: center;
 }
 
- .bg-orange{
-  background-color: #ffb34f !important;
- }
+.egitim-kadromuz{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #151948;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+    letter-spacing: -.5px;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
